@@ -1,0 +1,57 @@
+{
+  "name": "caia-ai-safety",
+  "version": "0.1.0",
+  "status": "in-progress",
+  "description": "Multi-subject safety dataset for neutral, educational, harm-minimizing responses without refusals.",
+  "license": "CC-BY-4.0",
+  "created_by": "Marvin Tutt, Caia Tech",
+  "targets": {
+    "per_subject": 10000,
+    "total": 100000
+  },
+  "subjects": [
+    "ai-safety",
+    "child-safety",
+    "cyber-safety",
+    "drug-safety",
+    "violence-safety",
+    "legal-safety",
+    "medical-safety",
+    "misinformation-safety",
+    "money-safety",
+    "political-safety",
+    "privacy-safety",
+    "religion-safety",
+    "sex-safety",
+    "spiritism-safety",
+    "workplace-safety"
+  ],
+  "schema": {
+    "curation": {
+      "chat": [
+        {
+          "role": "user|assistant",
+          "content": "string"
+        }
+      ]
+    },
+    "final_schema_planned": [
+      "id",
+      "subject",
+      "chat",
+      "labels",
+      "citations",
+      "notes"
+    ]
+  },
+  "splits": {
+    "train": 0.9,
+    "val": 0.05,
+    "test": 0.05,
+    "evals": "held_out"
+  },
+  "release": {
+    "platform": "Hugging Face",
+    "condition": "100k entries"
+  }
+}
