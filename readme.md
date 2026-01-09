@@ -30,6 +30,7 @@ Subjects
 - sex-safety
 - spiritism-safety
 - workplace-safety
+- mental-health-safety
 
 Philosophy
 The dataset prioritizes neutral, educational responses that reduce harm while preserving user agency. Some risks (scams, misinformation, manipulation, delusion) are cross-cutting and appear across all subjects; dedicated topics exist to allow deeper coverage and targeted evaluation.
